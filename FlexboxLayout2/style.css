@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+/* CONTAINERS */
+
+#main-container{
+    border:2px solid black;
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+#header{
+ background-color:#B0D9CC ;
+ margin-top:4em;
+ display:flex;
+ flex-basis: 350px;
+ justify-content: center;
+ align-items:center;
+}
+
+.content{
+    background-color: #FFFFFF;
+    border: 2px solid green;
+    color: #1A112B;
+    display:flex;
+    min-height: 50vh;
+    flex-direction: row; 
+}
+
+#nav-bar{
+    background-color:#B0D9CC;
+    border: 3px solid black;
+    color: #1A112B;
+    position: fixed;
+    top:0;
+    width: 100vw;
+    height: 5em;
+    display:flex;
+    flex: 0 0 5em;
+    justify-content: space-between;
+   }
+
+#logo{
+    background-color:#B0D9CC;
+    border: 1px solid black;
+    padding-left:1em;
+    display:flex;
+    width:300px;
+    justify-content: flex-start;
+    align-items: center;
+   }
+
+#links{
+    background-color:#B0D9CC;
+    border: 1px solid black;
+    display:flex;
+    width:500px;
+    justify-content: space-around;
+    align-items: center;
+   }
+   
+#top-grid{
+    background-color:#FFFFFF;
+    border: 1px solid black;
+    color: #1A112B;
+    margin-top: 5em ;
+    margin-left: 8em ;
+    margin-right: 8em ;
+    margin-bottom: 5em ;
+    height:15em;
+    width:100vw;
+    display:flex;
+   }
+#grid1{
+    background-color:#FFFFFF;
+    border: 1px solid black;
+    color: #1A112B;
+    margin-top: 5em ;
+    margin-left: 8em ;
+    margin-bottom: 5em ;
+    display:flex;
+   }
+#grid2{
+    background-color:#FFFFFF;
+    border: 1px solid black;
+    color: #1A112B;
+    margin-top: 5em ;
+    margin-left:3em;
+    margin-right:3em;
+    margin-bottom: 5em ;
+    display:flex;
+   }
+#grid3{
+    background-color:#FFFFFF;
+    border: 1px solid black;
+    color: #1A112B;
+    margin-top: 5em ;
+    margin-right: 8em ;
+    margin-bottom: 5em ;
+    display:flex;
+
+   }
+#footer{
+  background-color:  #0D4936;
+  display:flex;
+  flex-basis:150px;
+}
+
+/* TEXT */
+
+h1{
+    font-size:5em;
+    color:#0D4936;
+}
+
+p{
+    font-size: 1.2em;
+    font-weight: 900;
+    color:#0D4936;
+}
